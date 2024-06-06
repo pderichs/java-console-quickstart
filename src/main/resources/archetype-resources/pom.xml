@@ -39,6 +39,32 @@
         </archive>
       </configuration>
     </plugin>
+
+    <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.3.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>${groupId}.App</mainClass>
+          <!-- 
+          <workingDirectory>/tmp</workingDirectory>
+          <arguments>
+            <argument>-X</argument>
+            <argument>myproject:dist</argument>
+            ...
+          </arguments>
+          <environmentVariables>
+            <LANG>en_US</LANG>
+          </environmentVariables> -->
+        </configuration>
+      </plugin>
   </plugins>
 </build>
 </project>
