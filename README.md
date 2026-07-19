@@ -14,7 +14,7 @@ mvn clean install
 mvn archetype:generate \
     -DarchetypeGroupId=me.derichs \
     -DarchetypeArtifactId=java-console-quickstart \
-    -DarchetypeVersion=1.0-SNAPSHOT \
+    -DarchetypeVersion=2.0-SNAPSHOT \
     -DgroupId=org.example \
     -DartifactId=test-console-app
 ```

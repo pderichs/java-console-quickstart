@@ -6,7 +6,7 @@
 
   <groupId>me.derichs</groupId>
   <artifactId>java-console-quickstart</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>2.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>Archetype - java-console-quickstart</name>
@@ -16,7 +16,7 @@
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
         <artifactId>archetype-packaging</artifactId>
-        <version>3.0.1</version>
+        <version>3.4.1</version>
       </extension>
     </extensions>
   </build>
